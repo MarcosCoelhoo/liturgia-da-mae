@@ -11,7 +11,7 @@ const LogoIcon = ({ color = '#39A7FF', size = 16 }) => {
     >
       <mask
         id="mask0_27_277"
-        style={{ 'mask-type': 'luminance' }}
+        style={{ maskType: 'luminance' }}
         maskUnits="userSpaceOnUse"
         x="0"
         y="0"
