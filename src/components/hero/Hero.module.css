@@ -40,6 +40,10 @@
 }
 
 @media (min-width: 62.5rem) {
+  .container {
+    grid-area: 1/2;
+  }
+
   .infos {
     font-size: 1.5rem;
   }

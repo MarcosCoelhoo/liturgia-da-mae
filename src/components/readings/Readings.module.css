@@ -94,6 +94,10 @@
 }
 
 @media (min-width: 62.5rem) {
+  .container {
+    grid-area: 1/1;
+  }
+
   .liturgy {
     font-size: 1.75rem;
   }
