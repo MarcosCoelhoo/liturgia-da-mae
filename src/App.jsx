@@ -1,4 +1,5 @@
 import './App.css';
+import Credits from './components/credits/Credits';
 import Header from './components/header/Header';
 import Hero from './components/hero/Hero';
 import Readings from './components/readings/Readings';
@@ -15,6 +16,7 @@ function App() {
           <Readings />
         </main>
       </GlobalStorage>
+      <Credits />
     </>
   );
 }

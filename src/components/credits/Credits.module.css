@@ -1,0 +1,10 @@
+.container {
+  max-width: 110rem;
+  margin: 0 auto;
+  background: var(--black-100);
+  padding: 0.25rem 1rem;
+  text-align: center;
+  font-family: var(--font-text);
+  color: var(--principal-800);
+}
+
