@@ -1,0 +1,122 @@
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.liturgy {
+  text-align: center;
+  font-family: var(--font-text);
+  font-size: 1rem;
+  color: var(--black-900);
+  font-weight: 500;
+}
+
+.titleHeader {
+  font-family: var(--font-title);
+  font-size: 1.5rem;
+  background: var(--principal-500);
+  border-radius: 0.125rem;
+  padding: 0.25rem 0.5rem;
+  text-align: left;
+  color: var(--black-50);
+  letter-spacing: 0.0625rem;
+  font-weight: normal;
+}
+
+.readings {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.readContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.headRead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0.5rem;
+  background: var(--black-100);
+  border-radius: 0.125rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.headRead h2 {
+  font-family: var(--font-title);
+  font-weight: normal;
+  font-size: 1.25rem;
+  color: var(--black-900);
+
+}
+
+.headRead p {
+  font-family: var(--font-text);
+  font-size: .75rem;
+  color: var(--principal-500);
+}
+
+.bodyRead {
+  font-family: var(--font-text);
+  font-size: 1rem;
+  color: var(--black-600);
+  background: var(--black-100);
+  padding: 0.75rem 0.5rem;
+  font-weight: 400;
+  border-radius: 0.125rem;
+  line-height: 1.25rem;
+}
+
+.bodyRead p {
+  max-width: 64ch;
+}
+
+.highlighted {
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  display: block;
+  color: var(--black-900);
+}
+
+.letter p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 62.5rem) {
+  .liturgy {
+    font-size: 1.75rem;
+  }
+
+  .titleHeader {
+    font-size: 2.25rem;
+  }
+
+  .headRead h2 {
+    font-size: 2rem;
+  }
+
+  .headRead p {
+    font-size: 1rem;
+  }
+
+  .bodyRead {
+    font-size: 1.25rem;
+  }
+
+  .highlighted {
+    font-size: 1.25rem;
+
+  }
+
+  .letter p {
+    font-size: 1.25rem;
+  }
+}

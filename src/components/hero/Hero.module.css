@@ -1,0 +1,46 @@
+.container {
+ display: flex;
+ flex-direction: column;
+ gap: 0.625rem;
+ margin-bottom: 1.25rem;
+}
+
+.container img {
+  border-radius: 0.125rem;
+}
+
+.infos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--font-text);
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--principal-500);
+}
+
+.date span {
+  font-weight: 500;
+}
+
+.color {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+}
+
+.color span {
+  font-weight: 500;
+  display: flex;
+  width: fit-content;
+  gap: 0.25rem;
+  align-items: center;
+}
+
+@media (min-width: 62.5rem) {
+  .infos {
+    font-size: 1.5rem;
+  }
+}

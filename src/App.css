@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Rubik:wght@300;400;500&display=swap');
+
+:root {
+  --principal-50: #eef9ff;
+  --principal-100: #d9f1ff;
+  --principal-200: #bce7ff;
+  --principal-300: #8ed9ff;
+  --principal-400: #59c1ff;
+  --principal-500: #39a7ff;
+  --principal-600: #1b85f5;
+  --principal-700: #146ee1;
+  --principal-800: #1758b6;
+  --principal-900: #194c8f;
+  --principal-950: #142f57;
+
+  --black-50: #f6f6f6;
+  --black-100: #e7e7e7;
+  --black-200: #d1d1d1;
+  --black-300: #b0b0b0;
+  --black-400: #888888;
+  --black-500: #6d6d6d;
+  --black-600: #5d5d5d;
+  --black-700: #4f4f4f;
+  --black-800: #454545;
+  --black-900: #3d3d3d;
+  --black-950: #262626;
+
+  --font-title: 'Alice', serif;
+  --font-text: 'Rubik', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--black-50);
+}
+
+li, ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+main {
+  padding: 2.5rem 1rem 1.5rem 1rem;
+  max-width: 110rem;
+  margin: 0 auto;
+}
+

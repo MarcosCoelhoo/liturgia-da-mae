@@ -1,0 +1,19 @@
+.container {
+  border-bottom: 2px solid var(--principal-500);
+  background: var(--principal-100);
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  max-width: 110rem;
+  margin: 0 auto;
+}
+
+.container img {
+  width: 52px;
+}
+
+@media (min-width: 62.5rem) {
+  .container img {
+    width: 100px;
+  }
+}
