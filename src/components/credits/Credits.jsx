@@ -6,7 +6,7 @@ const Credits = () => {
     <div className={styles.container}>
       <p className={styles.text}>
         Desenvolvido de 💝 por{' '}
-        <a href="https://github.com/MarcosCoelhoo/">Marcos Coelho</a>
+        <a href="https://www.instagram.com/mdev.web/">Marcos Coelho</a>
       </p>
     </div>
   );
